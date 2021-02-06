@@ -1,0 +1,126 @@
+    1  sudo apt-get update
+    2  python --version
+    3  sudo apt install python3-pip
+    4  pip
+    5  pythin3 puip
+    6  pythin3 pip
+    7  sudo apt-get upgrade
+    8  cd /buidozer
+    9  cd /buildozer
+   10  git
+   11  clear
+   12  ll
+   13  cd buildozer/
+   14  sudo apt -install python 3
+   15  sudo apt-get install python 3
+   16  sudo apt-get install python3
+   17  sudo apt-get install python3-setuptools
+   18  sudo python3 setup.py
+   19  sudo python3 setup.py install
+   20  cd ..
+   21  ll
+   22  git clone https://github.com/sandeepramachandran/SanTest
+   23  git clone https://github.com/sandeepramachandran/SanTest.git
+   24  ls
+   25  cd SanTest/
+   26  buildozer init
+   27  ll
+   28  edit buildozer.spec 
+   29  pwd
+   30  ll
+   31  mv MyFirstMobileApp.py main.py
+   32  ll
+   33  buildozer android debug deploy run
+   34  clear
+   35  ll
+   36  ll *.apk
+   37  cd bin/
+   38  ll
+   39  grep -il *.apk
+   40  find *.apk
+   41  cd ../
+   42  find *.apk
+   43  sudo find. -print | grep -i '.*[.]apk'
+   44  sudo find . -print | grep -i '.*[.]apk'
+   45  cd bin/
+   46  ll
+   47  cd ../
+   48  ll
+   49  buildozer android deploy run
+   50  ll
+   51  cd bin/
+   52  ll
+   53  sudo find . -print | grep -i '.*[.]apk'
+   54  pwd
+   55  cd ../
+   56  sudo find . -print | grep -i '.*[.]apk'
+   57  mkdir -p ~/keystores/
+   58  keytool -genkey -v -keystore ~/keystores/SanTestKey.keystore -alias SanTestKey -keyalg RSA -keysize 2048 -validity 10000
+   59  eytool -importkeystore -srckeystore ~/keystores/SanTestKey.keystore -destkeystore ~/keystores/SanTestKey.keystore -deststoretype pkcs12
+   60  keytool -importkeystore -srckeystore ~/keystores/SanTestKey.keystore -destkeystore ~/keystores/SanTestKey.keystore -deststoretype pkcs12
+   61  dir
+   62  ll
+   63  mkdir -p ~/keystores/
+   64  keytool -genkey -v -keystore ~/keystores/<your-new-key>.keystore -alias <your-key-alias> -keyalg RSA -keysize 2048 -validity 10000
+   65  keytool -genkey -v -keystore ~/keystores/SanTestKey.keystore -alias SanTestKey -keyalg RSA -keysize 2048 -validity 10000
+   66  clear
+   67  mkdir -p ~/keystores/
+   68  keytool -genkey -v -keystore ~/keystores/SanKey.keystore -alias SanKey -keyalg RSA -keysize 2048 -validity 10000
+   69  keytool -importkeystore -srckeystore ~/keystores/SanKey.keystore -destkeystore ~/keystores/SanKey.keystore -deststoretype pkcs12
+   70  export P4A_RELEASE_KEYSTORE=~/keystores/SanKey.keystore
+   71  export P4A_RELEASE_KEYSTORE_PASSWD=android
+   72  export P4A_RELEASE_KEYALIAS_PASSWD=android
+   73  export P4A_RELEASE_KEYALIAS=SanKey
+   74  export P4A_RELEASE_KEYSTORE_PASSWD="abcd1234"
+   75  export P4A_RELEASE_KEYALIAS_PASSWD="abcd1234"
+   76  buildozer -v android release
+   77  ll
+   78  cd bin
+   79  ll
+   80  cd ../
+   81  buildozer android debug deploy run
+   82  buildozer -v android release
+   83  cd bin/
+   84  ll
+   85  cd ../
+   86  buildozer android debug deploy run
+   87  buildozer -v android release
+   88  cd bin/
+   89  ll
+   90  buildozer -v android release
+   91  cd ../
+   92  ll
+   93  cd .buildozer/
+   94  ll
+   95  cd ../
+   96  buildozer -v android release
+   97  cd bin/
+   98  ll
+   99  rm SanTest-0.1-armeabi-v7a-release.apk
+  100  ll
+  101  cd ../
+  102  ll
+  103  buildozer -v android release
+  104  cd bin/
+  105  ll
+  106  date
+  107  pwd
+  108  cd ../
+  109  buildozer -v android clean
+  110  buildozer -v android release
+  111  cd bin/
+  112  ll
+  113  cls
+  114  ll
+  115  rm SanTest-0.1-armeabi-v7a-release.apk
+  116  cd ../
+  117  buildozer -v android release
+  118  cd bin/
+  119  ll
+  120  rm SanTest-0.1-armeabi-v7a-release.apk
+  121  cd ../
+  122  buildozer -v android release
+  123  cd bin/
+  124  ll
+  125  history
+  126  history > a.txt
